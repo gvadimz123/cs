@@ -1,6 +1,5 @@
 using System;
 
-// Обобщённый класс Box<T>
 class Box<T>
 {
     private T value;
@@ -16,7 +15,6 @@ class Box<T>
     }
 }
 
-// Собственный класс
 class Student
 {
     public string Name { get; set; }
